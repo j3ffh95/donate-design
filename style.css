@@ -23,7 +23,7 @@ body {
 }
 
 .box::before {
-  background-color: #ff3d44;
+  background-color: #219ebc;
   border-radius: 30px;
   content: "";
   opacity: 0.9;
