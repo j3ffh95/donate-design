@@ -34,3 +34,10 @@ body {
   width: 220px;
   z-index: -1;
 }
+
+.box img {
+  display: block;
+  margin-top: -60px;
+  margin-bottom: 10px;
+  width: 50px;
+}
