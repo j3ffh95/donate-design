@@ -21,3 +21,16 @@ body {
   padding: 40px 60px;
   position: relative;
 }
+
+.box::before {
+  background-color: #ff3d44;
+  border-radius: 30px;
+  content: "";
+  opacity: 0.9;
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  height: 220px;
+  width: 220px;
+  z-index: -1;
+}
