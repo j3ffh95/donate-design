@@ -49,3 +49,21 @@ body {
 .box p {
   line-height: 24px;
 }
+
+.btn {
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.btn.paypal {
+  background-color: #0070ba;
+  margin-right: 10px;
+}
+
+.btn.patreon {
+  background-color: #fc6856;
+}
